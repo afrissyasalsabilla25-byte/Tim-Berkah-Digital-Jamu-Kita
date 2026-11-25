@@ -1,0 +1,461 @@
+:root {
+    --jk-bg: #faf5ee;
+    --jk-surface: #ffffff;
+    --jk-surface-soft: #f6efe6;
+    --jk-surface-hover: #efe4d6;
+    --jk-border: #eadfd1;
+    --jk-primary: #c0391b;
+    --jk-primary-hover: #a12d13;
+    --jk-primary-soft: #f7e8df;
+    --jk-text: #2b1b12;
+    --jk-text-muted: #6e5a4f;
+    --jk-text-subtle: #968175;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: var(--jk-bg);
+    color: var(--jk-text);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.font-serif {
+    font-family: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+/* Navbar */
+.jk-navbar {
+    background-color: rgba(255, 255, 255, 0.94);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--jk-border);
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.jk-brand-logo {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid var(--jk-primary-soft);
+    box-shadow: 0 2px 8px rgba(192, 57, 27, 0.14);
+}
+
+.jk-brand-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: var(--jk-text);
+    line-height: 1.1;
+}
+
+.jk-brand-subtitle {
+    font-size: 0.625rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    color: var(--jk-primary);
+    text-transform: uppercase;
+}
+
+.jk-nav-pill {
+    background-color: var(--jk-surface-soft);
+    color: var(--jk-text);
+    font-weight: 600;
+    font-size: 0.875rem;
+    padding: 0.45rem 1rem;
+    border-radius: 999px;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.jk-nav-pill:hover {
+    background-color: var(--jk-surface-hover);
+    color: var(--jk-text);
+}
+
+.jk-btn-primary {
+    background-color: var(--jk-primary);
+    border-color: var(--jk-primary);
+    color: #ffffff;
+    font-weight: 600;
+    transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
+}
+
+.jk-btn-primary:hover,
+.jk-btn-primary:focus {
+    background-color: var(--jk-primary-hover);
+    border-color: var(--jk-primary-hover);
+    color: #ffffff;
+}
+
+.jk-btn-primary:active {
+    transform: translateY(1px);
+}
+
+.jk-btn-nav-login {
+    border-radius: 999px;
+    padding: 0.45rem 1.25rem;
+    font-size: 0.875rem;
+}
+
+/* Hero & Tentang Kami */
+.jk-hero-section {
+    padding: 4rem 0 2.5rem;
+    background: radial-gradient(circle at top center, #fffaf4 0%, var(--jk-bg) 75%);
+}
+
+.jk-hero-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--jk-surface);
+    border: 1px solid var(--jk-border);
+    padding: 0.35rem 1rem;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    box-shadow: 0 4px 12px rgba(43, 27, 18, 0.04);
+}
+
+.jk-hero-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(2.1rem, 4.5vw, 3.35rem);
+    line-height: 1.15;
+    color: var(--jk-text);
+}
+
+.jk-hero-lead {
+    color: var(--jk-text-muted);
+    font-size: 1.02rem;
+    line-height: 1.7;
+    max-width: 650px;
+}
+
+.jk-btn-pill-primary {
+    border-radius: 999px;
+    padding: 0.72rem 1.5rem;
+    font-size: 0.92rem;
+}
+
+.jk-btn-pill-soft {
+    background-color: var(--jk-surface-soft);
+    border: 1px solid var(--jk-border);
+    color: var(--jk-text);
+    font-weight: 600;
+    border-radius: 999px;
+    padding: 0.72rem 1.5rem;
+    font-size: 0.92rem;
+    transition: background-color 0.2s ease;
+}
+
+.jk-btn-pill-soft:hover {
+    background-color: var(--jk-surface-hover);
+    color: var(--jk-text);
+}
+
+.jk-hero-image-card {
+    position: relative;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 22px 50px rgba(43, 27, 18, 0.14);
+    border: 1px solid var(--jk-border);
+    background: linear-gradient(135deg, #3c2618 0%, #7d4222 50%, #2b1b12 100%);
+    min-height: 360px;
+    max-height: 460px;
+}
+
+.jk-hero-image-card img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+    display: block;
+}
+
+.jk-hero-image-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(25, 14, 8, 0.78) 0%, rgba(25, 14, 8, 0.12) 45%, transparent 100%);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 1.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.jk-feature-card {
+    background-color: var(--jk-surface);
+    border: 1px solid var(--jk-border);
+    border-radius: 18px;
+    padding: 1.75rem;
+    height: 100%;
+    box-shadow: 0 10px 28px rgba(43, 27, 18, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.jk-feature-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 32px rgba(43, 27, 18, 0.08);
+}
+
+.jk-feature-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: 12px;
+    background-color: var(--jk-primary-soft);
+    color: var(--jk-primary);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.15rem;
+    margin-bottom: 1.1rem;
+}
+
+.jk-quote-banner {
+    background-color: var(--jk-surface-soft);
+    border: 1px solid var(--jk-border);
+    border-radius: 18px;
+    padding: 1.75rem 2rem;
+}
+
+.jk-product-card {
+    background-color: var(--jk-surface);
+    border: 1px solid var(--jk-border);
+    border-radius: 18px;
+    padding: 1.5rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 10px 28px rgba(43, 27, 18, 0.04);
+}
+
+.jk-tag-pill {
+    background-color: var(--jk-primary-soft);
+    color: var(--jk-primary);
+    font-size: 0.72rem;
+    font-weight: 700;
+    padding: 0.28rem 0.7rem;
+    border-radius: 999px;
+}
+
+.jk-btn-order-sm {
+    background-color: var(--jk-surface-soft);
+    border: 1px solid var(--jk-border);
+    color: var(--jk-text);
+    font-size: 0.78rem;
+    font-weight: 700;
+    border-radius: 999px;
+    padding: 0.35rem 0.9rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.jk-btn-order-sm:hover {
+    background-color: var(--jk-primary);
+    border-color: var(--jk-primary);
+    color: #ffffff;
+}
+
+/* Login Card & Section */
+.jk-auth-section {
+    padding: 3.5rem 1rem 4.5rem;
+    background: radial-gradient(circle at top center, #fffaf4 0%, var(--jk-bg) 65%);
+}
+
+.jk-login-card {
+    max-width: 490px;
+    width: 100%;
+    background-color: var(--jk-surface);
+    border: 1px solid var(--jk-border);
+    border-radius: 22px;
+    box-shadow: 0 20px 50px rgba(43, 27, 18, 0.06);
+    padding: 2.25rem;
+}
+
+@media (max-width: 575.98px) {
+    .jk-login-card {
+        padding: 1.5rem;
+    }
+}
+
+.jk-badge-portal {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background-color: var(--jk-primary-soft);
+    color: var(--jk-primary);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    padding: 0.35rem 0.75rem;
+    border-radius: 999px;
+    text-transform: uppercase;
+}
+
+.jk-btn-google {
+    background-color: var(--jk-surface-soft);
+    border: 1px solid var(--jk-border);
+    color: var(--jk-text);
+    font-weight: 600;
+    font-size: 0.925rem;
+    border-radius: 12px;
+    padding: 0.72rem 1rem;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.jk-btn-google:hover {
+    background-color: var(--jk-surface-hover);
+    border-color: #decbb6;
+    color: var(--jk-text);
+}
+
+.jk-divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--jk-text-subtle);
+    font-size: 0.6875rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin: 1.35rem 0;
+}
+
+.jk-divider::before,
+.jk-divider::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid var(--jk-border);
+}
+
+.jk-divider::before {
+    margin-right: 0.85rem;
+}
+
+.jk-divider::after {
+    margin-left: 0.85rem;
+}
+
+.jk-input-group {
+    background-color: var(--jk-surface-soft);
+    border: 1px solid var(--jk-border);
+    border-radius: 12px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.jk-input-group:focus-within {
+    border-color: var(--jk-primary);
+    box-shadow: 0 0 0 0.2rem rgba(192, 57, 27, 0.12);
+    background-color: #fdfaf6;
+}
+
+.jk-input-group .input-group-text {
+    background: transparent;
+    border: none;
+    color: var(--jk-text-muted);
+    padding-left: 1rem;
+}
+
+.jk-input-group .form-control {
+    background: transparent;
+    border: none;
+    color: var(--jk-text);
+    font-size: 0.925rem;
+    padding-top: 0.72rem;
+    padding-bottom: 0.72rem;
+    box-shadow: none;
+}
+
+.jk-input-group .form-control::placeholder {
+    color: var(--jk-text-subtle);
+}
+
+.jk-input-group .btn-toggle-password {
+    background: transparent;
+    border: none;
+    color: var(--jk-text-muted);
+    padding-right: 1rem;
+}
+
+.jk-input-group .btn-toggle-password:hover {
+    color: var(--jk-text);
+}
+
+.jk-form-check-input:checked {
+    background-color: var(--jk-primary);
+    border-color: var(--jk-primary);
+}
+
+.jk-form-check-input:focus {
+    box-shadow: 0 0 0 0.2rem rgba(192, 57, 27, 0.2);
+    border-color: var(--jk-primary);
+}
+
+.jk-btn-submit {
+    border-radius: 12px;
+    padding: 0.8rem 1.25rem;
+    font-size: 0.95rem;
+}
+
+.jk-register-box {
+    background-color: var(--jk-surface-soft);
+    border: 1px solid var(--jk-border);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+.jk-link-primary {
+    color: var(--jk-primary);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.jk-link-primary:hover {
+    color: var(--jk-primary-hover);
+    text-decoration: underline;
+}
+
+/* Footer */
+.jk-footer {
+    background-color: #fcf9f5;
+    border-top: 1px solid var(--jk-border);
+    color: var(--jk-text-muted);
+    font-size: 0.875rem;
+}
+
+.jk-footer-heading {
+    color: var(--jk-text);
+    font-weight: 700;
+    font-size: 0.95rem;
+    margin-bottom: 0.9rem;
+}
+
+.jk-footer-link {
+    color: var(--jk-text-muted);
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 0.45rem;
+    transition: color 0.15s ease;
+}
+
+.jk-footer-link:hover {
+    color: var(--jk-primary);
+}
+
+.jk-footer-bottom {
+    border-top: 1px solid var(--jk-border);
+    font-size: 0.8rem;
+    color: var(--jk-text-subtle);
+}
