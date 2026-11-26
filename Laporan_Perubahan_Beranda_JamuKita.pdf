@@ -1,0 +1,360 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [ 6 0 R 8 0 R ] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 9726 >>
+stream
+0.169 0.106 0.071 rg
+BT /F2 18.00 Tf 42.00 793.89 Td (Laporan Perubahan Proyek Jamu Kita) Tj ET
+0.431 0.353 0.310 rg
+BT /F1 8.50 Tf 448.28 795.89 Td (Tanggal: 26 November 2026) Tj ET
+0.753 0.224 0.106 rg
+BT /F2 9.20 Tf 42.00 776.89 Td (Implementasi Halaman Beranda, Navbar Login & Katalog Produk) Tj ET
+0.431 0.353 0.310 rg
+BT /F1 8.50 Tf 448.28 776.89 Td (Laravel 13.43.0 | PHP 8.3) Tj ET
+0.753 0.224 0.106 RG
+1.80 w
+42.00 766.89 m 553.28 766.89 l S
+0.980 0.961 0.933 rg
+0.918 0.875 0.820 RG
+0.80 w
+42.00 604.89 511.28 146.00 re B
+0.169 0.106 0.071 rg
+BT /F2 10.50 Tf 54.00 732.89 Td (Ringkasan Pekerjaan yang Telah Diselesaikan:) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.30 Tf 54.00 716.89 Td (* Pemisahan dan pengamanan routing utama \(GET / dan GET /beranda\) menggunakan middleware auth menuju) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.30 Tf 62.00 703.39 Td (HomeController@index agar halaman Beranda hanya dapat diakses setelah pengguna login.) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.30 Tf 54.00 689.89 Td (* Pembaruan komponen navbar \(navbar.blade.php\) untuk kondisi terautentikasi \(@auth\) lengkap dengan menu) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.30 Tf 62.00 676.39 Td (navigasi, ikon keranjang, nama pengguna aktif, serta tombol keluar sesi.) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.30 Tf 54.00 662.89 Td (* Pembangunan halaman Beranda \(beranda.blade.php\) dan gaya CSS \(public/css/style.css\) sesuai UI Mock-up) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.30 Tf 62.00 649.39 Td (Beranda: bagian profil usaha \(berdiri sejak 1928\) dan katalog produk pilihan dengan filter kategori.) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.30 Tf 54.00 635.89 Td (* Penambahan 4 aset gambar pada public/images/ serta penulisan feature test Pest pada) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.30 Tf 62.00 622.39 Td (tests/Feature/BerandaTest.php.) Tj ET
+0.753 0.224 0.106 rg
+42.00 584.89 3.50 14.00 re f
+0.169 0.106 0.071 rg
+BT /F2 12.00 Tf 52.00 588.89 Td (1. Daftar File yang Dibuat & Diperbarui) Tj ET
+0.965 0.937 0.902 rg
+0.918 0.875 0.820 RG
+0.75 w
+42.00 548.89 175.00 22.00 re B
+0.965 0.937 0.902 rg
+0.918 0.875 0.820 RG
+0.75 w
+217.00 548.89 72.00 22.00 re B
+0.965 0.937 0.902 rg
+0.918 0.875 0.820 RG
+0.75 w
+289.00 548.89 264.28 22.00 re B
+0.169 0.106 0.071 rg
+BT /F2 9.00 Tf 48.00 556.89 Td (Lokasi File) Tj ET
+0.169 0.106 0.071 rg
+BT /F2 9.00 Tf 223.00 556.89 Td (Status) Tj ET
+0.169 0.106 0.071 rg
+BT /F2 9.00 Tf 295.00 556.89 Td (Keterangan Perubahan) Tj ET
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+42.00 500.89 175.00 48.00 re B
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+217.00 500.89 72.00 48.00 re B
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+289.00 500.89 264.28 48.00 re B
+0.620 0.239 0.098 rg
+BT /F3 8.00 Tf 48.00 534.89 Td (routes/web.php) Tj ET
+1.000 0.941 0.859 rg
+223.00 527.89 60.00 15.00 re f
+0.631 0.361 0.027 rg
+BT /F2 7.50 Tf 228.00 532.89 Td (DIPERBARUI) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 534.89 Td (Mengarahkan GET / \(home\) dan GET /beranda \(beranda\) ke) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 522.89 Td (HomeController@index dalam grup middleware auth. Tamu yang) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 510.89 Td (belum login otomatis diarahkan ke /login.) Tj ET
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+42.00 452.89 175.00 48.00 re B
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+217.00 452.89 72.00 48.00 re B
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+289.00 452.89 264.28 48.00 re B
+0.620 0.239 0.098 rg
+BT /F3 8.00 Tf 48.00 486.89 Td (app/Http/Controllers/) Tj ET
+0.620 0.239 0.098 rg
+BT /F3 8.00 Tf 48.00 474.89 Td (HomeController.php) Tj ET
+0.890 0.961 0.910 rg
+223.00 479.89 60.00 15.00 re f
+0.106 0.431 0.208 rg
+BT /F2 7.50 Tf 228.00 484.89 Td (BARU) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 486.89 Td (Menangani tampilan halaman Beranda \(index\(\)\) serta) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 474.89 Td (mengirimkan data 3 produk racikan pilihan \(kategori,) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 462.89 Td (harga, atribut, gambar, dan status ketersediaan\).) Tj ET
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+42.00 392.89 175.00 60.00 re B
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+217.00 392.89 72.00 60.00 re B
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+289.00 392.89 264.28 60.00 re B
+0.620 0.239 0.098 rg
+BT /F3 8.00 Tf 48.00 438.89 Td (resources/views/partials/) Tj ET
+0.620 0.239 0.098 rg
+BT /F3 8.00 Tf 48.00 426.89 Td (navbar.blade.php) Tj ET
+1.000 0.941 0.859 rg
+223.00 431.89 60.00 15.00 re f
+0.631 0.361 0.027 rg
+BT /F2 7.50 Tf 228.00 436.89 Td (DIPERBARUI) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 438.89 Td (Menambahkan tampilan navbar khusus pengguna login \(@auth\):) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 426.89 Td (menu Beranda \(aktif\), Produk, Pesanan Saya, Profil / Akun,) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 414.89 Td (ikon keranjang, nama pengguna \(Auth::user\(\)->name\), dan) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 402.89 Td (tombol Keluar.) Tj ET
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+42.00 332.89 175.00 60.00 re B
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+217.00 332.89 72.00 60.00 re B
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+289.00 332.89 264.28 60.00 re B
+0.620 0.239 0.098 rg
+BT /F3 8.00 Tf 48.00 378.89 Td (resources/views/) Tj ET
+0.620 0.239 0.098 rg
+BT /F3 8.00 Tf 48.00 366.89 Td (beranda.blade.php) Tj ET
+0.890 0.961 0.910 rg
+223.00 371.89 60.00 15.00 re f
+0.106 0.431 0.208 rg
+BT /F2 7.50 Tf 228.00 376.89 Td (BARU) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 378.89 Td (Halaman lengkap pasca-login: kartu hero Tentang Jamu Kita) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 366.89 Td (\(latar belakang, tahun berdiri 1928, 3 kotak statistik\)) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 354.89 Td (dan Katalog Racikan Produk Pilihan dengan filter kategori) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 342.89 Td (interaktif.) Tj ET
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+42.00 284.89 175.00 48.00 re B
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+217.00 284.89 72.00 48.00 re B
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+289.00 284.89 264.28 48.00 re B
+0.620 0.239 0.098 rg
+BT /F3 8.00 Tf 48.00 318.89 Td (public/css/style.css) Tj ET
+1.000 0.941 0.859 rg
+223.00 311.89 60.00 15.00 re f
+0.631 0.361 0.027 rg
+BT /F2 7.50 Tf 228.00 316.89 Td (DIPERBARUI) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 318.89 Td (Menambahkan gaya CSS untuk navbar terautentikasi, kartu) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 306.89 Td (hero beranda, overlay badge media, kotak statistik, pil) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 294.89 Td (filter kategori, kartu katalog produk, dan tombol favorit.) Tj ET
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+42.00 224.89 175.00 60.00 re B
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+217.00 224.89 72.00 60.00 re B
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+289.00 224.89 264.28 60.00 re B
+0.620 0.239 0.098 rg
+BT /F3 8.00 Tf 48.00 270.89 Td (public/images/hero-jamu.jpg) Tj ET
+0.620 0.239 0.098 rg
+BT /F3 8.00 Tf 48.00 258.89 Td (public/images/kunyit-asam.jpg) Tj ET
+0.620 0.239 0.098 rg
+BT /F3 8.00 Tf 48.00 246.89 Td (public/images/beras-kencur.jpg) Tj ET
+0.620 0.239 0.098 rg
+BT /F3 8.00 Tf 48.00 234.89 Td (public/images/temulawak-jahe.jpg) Tj ET
+0.890 0.961 0.910 rg
+223.00 263.89 60.00 15.00 re f
+0.106 0.431 0.208 rg
+BT /F2 7.50 Tf 228.00 268.89 Td (BARU) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 270.89 Td (Aset gambar editorial untuk foto hero seduhan jamu) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 258.89 Td (tradisional serta tiga foto botol produk unggulan pada) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 246.89 Td (halaman Beranda.) Tj ET
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+42.00 176.89 175.00 48.00 re B
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+217.00 176.89 72.00 48.00 re B
+1.000 1.000 1.000 rg
+0.918 0.875 0.820 RG
+0.75 w
+289.00 176.89 264.28 48.00 re B
+0.620 0.239 0.098 rg
+BT /F3 8.00 Tf 48.00 210.89 Td (tests/Feature/) Tj ET
+0.620 0.239 0.098 rg
+BT /F3 8.00 Tf 48.00 198.89 Td (BerandaTest.php) Tj ET
+0.890 0.961 0.910 rg
+223.00 203.89 60.00 15.00 re f
+0.106 0.431 0.208 rg
+BT /F2 7.50 Tf 228.00 208.89 Td (BARU) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 210.89 Td (Feature test Pest untuk memastikan tamu diarahkan ke) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 198.89 Td (login, pengguna login dapat melihat Beranda & katalog) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 8.80 Tf 295.00 186.89 Td (produk, dan login langsung mengarahkan ke Beranda.) Tj ET
+0.753 0.224 0.106 rg
+42.00 156.89 3.50 14.00 re f
+0.169 0.106 0.071 rg
+BT /F2 12.00 Tf 52.00 160.89 Td (2. Rincian Struktur & Fitur Halaman Beranda) Tj ET
+0.980 0.961 0.933 rg
+0.918 0.875 0.820 RG
+0.80 w
+42.00 69.89 511.28 73.00 re B
+0.620 0.239 0.098 rg
+BT /F2 10.00 Tf 54.00 125.89 Td (A. Alur Akses & Navbar Pengguna Login) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.20 Tf 54.00 110.89 Td (Pengguna yang belum login tidak dapat membuka / atau /beranda karena terlindungi middleware auth. Setelah) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.20 Tf 54.00 97.89 Td (berhasil login melalui LoginController::authenticate\(\), pengguna otomatis diarahkan ke route\("home"\) yang) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.20 Tf 54.00 84.89 Td (menampilkan halaman Beranda beserta nama akun dan tombol keluar di navbar.) Tj ET
+0.918 0.875 0.820 RG 0.6 w 42.00 40.00 m 553.28 40.00 l S
+0.431 0.353 0.310 rg BT /F1 8.0 Tf 42.00 30.00 Td (Tim Berkah Digital - Sistem Informasi Penjualan & Pemesanan Jamu) Tj ET
+0.431 0.353 0.310 rg BT /F1 8.0 Tf 485.28 30.00 Td (Halaman 1 dari 2) Tj ET
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R /F3 5 0 R >> >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 2887 >>
+stream
+0.980 0.961 0.933 rg
+0.918 0.875 0.820 RG
+0.80 w
+42.00 720.89 511.28 73.00 re B
+0.620 0.239 0.098 rg
+BT /F2 10.00 Tf 54.00 776.89 Td (B. Bagian Tentang Jamu Kita \(Hero & Profil Usaha\)) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.20 Tf 54.00 761.89 Td (Menampilkan gambar hero dengan badge "100% Organik Lereng Merapi", kartu "Warisan Racikan 1928", latar) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.20 Tf 54.00 748.89 Td (belakang resep turun-temurun keraton Surakarta bersama petani lokal lereng Merapi dan Kulon Progo, serta 3) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.20 Tf 54.00 735.89 Td (kotak statistik \(50+ Varian Resep Alami, 100% Bahan Petani Lokal, BPOM Higienis & Teruji\).) Tj ET
+0.980 0.961 0.933 rg
+0.918 0.875 0.820 RG
+0.80 w
+42.00 624.89 511.28 86.00 re B
+0.620 0.239 0.098 rg
+BT /F2 10.00 Tf 54.00 693.89 Td (C. Katalog Racikan Produk Pilihan) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.20 Tf 54.00 678.89 Td (Menyediakan filter kategori interaktif \(Semua Varian, Imunitas & Detoks, Stamina & Pegal, Pencernaan\) dan 3) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.20 Tf 54.00 665.89 Td (kartu produk: Kunyit Asam Sriwedari \(Rp 28.000\), Beras Kencur Pandan Wangi \(Rp 32.000\), dan Temulawak Jahe) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.20 Tf 54.00 652.89 Td (Merah \(Rp 35.000\), lengkap dengan label kategori, rating, atribut botol, tombol favorit, serta status) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.20 Tf 54.00 639.89 Td (ketersediaan dan tombol + Keranjang.) Tj ET
+0.753 0.224 0.106 rg
+42.00 610.89 3.50 14.00 re f
+0.169 0.106 0.071 rg
+BT /F2 12.00 Tf 52.00 614.89 Td (3. Hasil Verifikasi & Pengujian) Tj ET
+0.980 0.961 0.933 rg
+0.918 0.875 0.820 RG
+0.80 w
+42.00 477.89 511.28 119.00 re B
+0.169 0.106 0.071 rg
+BT /F2 10.50 Tf 54.00 578.89 Td (Status Pemeriksaan Kode & Pengujian:) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.30 Tf 54.00 562.89 Td (* Laravel Pint \(Code Formatter\): vendor/bin/pint --dirty --format agent -- Lolos tanpa masalah gaya) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.30 Tf 62.00 549.39 Td (penulisan kode PHP.) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.30 Tf 54.00 535.89 Td (* Pest Feature Tests \(tests/Feature/BerandaTest.php\): 3 skenario uji telah dibuat \(redirect tamu,) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.30 Tf 62.00 522.39 Td (tampilan beranda terautentikasi, dan redirect setelah login\). Pada terminal sandbox Windows, eksekusi) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.30 Tf 62.00 508.89 Td (php artisan test --compact terhenti oleh kendala izin is_readable\("vendor/autoload.php"\), sehingga perlu) Tj ET
+0.169 0.106 0.071 rg
+BT /F1 9.30 Tf 62.00 495.39 Td (dijalankan langsung di terminal lokal untuk verifikasi akhir.) Tj ET
+0.918 0.875 0.820 RG 0.6 w 42.00 40.00 m 553.28 40.00 l S
+0.431 0.353 0.310 rg BT /F1 8.0 Tf 42.00 30.00 Td (Tim Berkah Digital - Sistem Informasi Penjualan & Pemesanan Jamu) Tj ET
+0.431 0.353 0.310 rg BT /F1 8.0 Tf 485.28 30.00 Td (Halaman 2 dari 2) Tj ET
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000123 00000 n 
+0000000220 00000 n 
+0000000322 00000 n 
+0000000417 00000 n 
+0000000569 00000 n 
+0000010346 00000 n 
+0000010498 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+13436
+%%EOF
