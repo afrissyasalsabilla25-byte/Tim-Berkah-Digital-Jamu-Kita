@@ -460,6 +460,115 @@ main {
     color: var(--jk-text-subtle);
 }
 
+/* Split-Screen Register Page */
+.jk-split-wrapper {
+    min-height: 100vh;
+}
+
+.jk-split-left {
+    background-color: #541d11;
+    background-image: radial-gradient(circle at top left, rgba(255, 255, 255, 0.05), transparent 55%);
+    color: #fffaf4;
+    padding: 2.75rem 3.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.jk-split-brand-text {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: 1.35rem;
+    color: #ffffff;
+}
+
+.jk-split-brand-accent {
+    color: #f4b740;
+}
+
+.jk-split-hero-title {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    font-size: clamp(2.1rem, 3.8vw, 3rem);
+    line-height: 1.15;
+    color: #ffffff;
+}
+
+.jk-split-hero-desc {
+    color: rgba(255, 250, 244, 0.8);
+    font-size: 1rem;
+    line-height: 1.7;
+    max-width: 440px;
+}
+
+.jk-split-left-footer {
+    color: rgba(255, 250, 244, 0.6);
+    font-size: 0.8rem;
+}
+
+.jk-split-right {
+    background-color: #fffdf9;
+    padding: 3rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jk-register-container {
+    width: 100%;
+    max-width: 420px;
+}
+
+.jk-register-input {
+    background-color: #ffffff;
+    border: 1px solid #e5d8c8;
+    border-radius: 10px;
+    padding: 0.72rem 0.95rem;
+    font-size: 0.92rem;
+    color: var(--jk-text);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.jk-register-input:focus {
+    border-color: var(--jk-primary);
+    box-shadow: 0 0 0 0.2rem rgba(192, 57, 27, 0.12);
+    background-color: #ffffff;
+}
+
+.jk-register-input::placeholder {
+    color: #b09e92;
+}
+
+.jk-password-toggle-text {
+    position: absolute;
+    right: 0.9rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    color: var(--jk-primary);
+    font-size: 0.78rem;
+    font-weight: 700;
+    padding: 0;
+    cursor: pointer;
+}
+
+.jk-password-toggle-text:hover {
+    color: var(--jk-primary-hover);
+}
+
+@media (max-width: 991.98px) {
+    .jk-split-left {
+        padding: 2rem 1.5rem;
+        gap: 2rem;
+    }
+
+    .jk-split-right {
+        padding: 2.25rem 1.25rem;
+    }
+}
+
+
 /* Navbar Authenticated */
 .jk-nav-link {
     color: var(--jk-text-muted);

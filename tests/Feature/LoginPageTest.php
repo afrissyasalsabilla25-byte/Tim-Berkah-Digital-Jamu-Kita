@@ -16,7 +16,8 @@ test('login page renders with layout, navbar, footer, and logo', function () {
         ->assertSee('Selamat Datang Kembali')
         ->assertSee('Masuk ke Jamu Kita')
         ->assertSee('logo projek ppl .jpeg')
-        ->assertSee('Kedai Jamu Pusat');
+        ->assertSee('Kedai Jamu Pusat')
+        ->assertSee(route('register'));
 });
 
 test('login validates required fields', function () {

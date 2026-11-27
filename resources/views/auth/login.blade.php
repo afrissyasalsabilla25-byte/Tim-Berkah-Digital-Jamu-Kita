@@ -326,7 +326,7 @@
             <p class="small mb-1" style="color: var(--jk-text-muted);">
                 Belum menjadi anggota keluarga Jamu Kita?
             </p>
-            <a href="#" class="jk-link-primary small">
+            <a href="{{ route('register') }}" class="jk-link-primary small">
                 Daftar Sekarang &amp; Dapatkan Racikan Gratis Pertama &rarr;
             </a>
         </div>
